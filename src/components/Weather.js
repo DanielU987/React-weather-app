@@ -7,7 +7,7 @@ const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [backgroundColor, setBackgroundColor] = useState('');
 
-  const API_KEY = 'f472c86b382800cac8314e1a08fddbd0';
+  const API_KEY = 'YOUR_API_KEY';
   const API_URL = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric&q=`;
 
   const handleInputChange = (event) => {
